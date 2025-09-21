@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" type="module" defer></script>
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="visually-hidden">Rating App</h1>
+      <!-- Rating state start -->
+      <article class="rating">
+        <div class="rating__icon-wrapper">
+          <img src="./images/icon-star.svg" class="rating__icon" alt="" />
+        </div>
+        <div class="rating__main-content">
+          <fieldset
+            class="rating__heading"
+            form="rating__form"
+            aria-describedby="rating-help"
+          >
+            <legend>How did we do?</legend>
+          </fieldset>
+          <p class="rating__text" id="rating-help">
+            Please let us know how we did with your support request.All feedback
+            is appreciated to help us improve our offering!
+          </p>
+          <form action="" class="rating__form" id="rating__form">
+            <ol class="rating__form-list">
+              <li class="rating__form-list-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    id="rating-1"
+                    value="1"
+                    required
+                  />1</label
+                >
+              </li>
+              <li class="rating__form-list-item">
+                <label
+                  ><input
+                    type="radio"
+                    name="rating"
+                    id="rating-2"
+                    value="2"
+                  />2</label
+                >
+              </li>
+              <li class="rating__form-list-item">
+                <label
+                  ><input
+                    type="radio"
+                    name="rating"
+                    id="rating-3"
+                    value="3"
+                  />3</label
+                >
+              </li>
+              <li class="rating__form-list-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    id="rating-4"
+                    value="4"
+                  />4</label
+                >
+              </li>
+              <li class="rating__form-list-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="rating"
+                    id="rating-5"
+                    value="5"
+                  />5</label
+                >
+              </li>
+            </ol>
+          </form>
+        </div>
+        <button type="submit" form="rating__form" class="rating__submit">
+          <span>SUBMIT</span>
+        </button>
+      </article>
+    </main>
+    <template id="template__thanks">
+      <article class="thanks">
+        <div class="thanks__img-wrapper">
+          <img src="./images/illustration-thank-you.svg" alt="" />
+        </div>
+        <p class="thanks__rating">You selected 4 out of 5</p>
+        <div class="thanks__main-wrapper">
+          <h2 class="thanks__heading">Thank you!</h2>
+          <p class="thanks__text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </article>
+    </template>
+  </body>
+</html>

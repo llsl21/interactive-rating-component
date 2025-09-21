@@ -1,0 +1,46 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-orange-500: #fc7614;
+  --color-grey-500: #969fad;
+  --color-grey-900: #262e38;
+  --color-grey-950: #131518;
+  --spacing-0: 0;
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-500: 2.5rem;
+  --spacing-600: 3rem;
+  --spacing-1300: 6.5rem;
+  --spacing-1700: 8.5rem;
+
+  --text-preset-1:
+    normal 700 calc(28 / 16 * 1rem) / calc(35 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-2:
+    normal 700 calc(24 / 16 * 1rem) / calc(30 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-3:
+    normal 700 calc(16 / 16 * 1rem) / calc(24 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-4-bold:
+    normal 700 calc(15 / 16 * 1rem) / calc(19 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-4-regular:
+    normal 400 calc(15 / 16 * 1rem) / calc(24 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-5-bold:
+    normal 700 calc(14 / 16 * 1rem) / calc(18 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-5-semibold:
+    normal 600 calc(14 / 16 * 1rem) / calc(24 / 16 * 1rem) "Overpass",
+    sans-serif;
+  --text-preset-5-regular:
+    normal 400 calc(14 / 16 * 1rem) / calc(22 / 16 * 1rem) "Overpass",
+    sans-serif;
+}

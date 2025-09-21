@@ -1,0 +1,12 @@
+{
+  "source": ["tokens/variable-collection.json"],
+  "expand": "true",
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "transforms": ["size/pxToRem"],
+      "buildPath": "build/",
+      "files": [{ "destination": "_variables.css", "format": "css/variables" }]
+    }
+  }
+}
