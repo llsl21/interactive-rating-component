@@ -4,7 +4,12 @@ export const setupThanksTemplate = (value) => {
   const thanksRatingText = thanksFragment.querySelector(".thanks__rating");
   if (!thanksRatingText) console.error("No thanksRatingText found.");
   thanksRatingText.textContent = `You selected ${value} out of 5`;
+  const thanksCard = thanksFragment.firstElementChild;
   document.body.querySelector(".rating").replaceWith(thanksFragment);
+
+  requestAnimationFrame(() => {
+    thanksCard.classList.add("is-enter");
+  });
 };
 
 export const setupForm = (rating) => {

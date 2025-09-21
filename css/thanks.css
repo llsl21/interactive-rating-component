@@ -11,6 +11,16 @@
   display: grid;
   gap: var(--spacing-300);
   justify-items: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 1.5s,
+    transform 1s;
+}
+
+.is-enter {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .thanks__img-wrapper {
